@@ -1,0 +1,401 @@
+/*Limpieza de márgenes----------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Ajuste de texto y contenido del index----------------------------*/
+.right p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
+
+/*CABECERA (Header de la Plantilla)-------------------*/
+.principal {
+    background-color: #1a0284;
+    color: rgb(255, 233, 31);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+.principal hgroup h4 {
+    color: #bbb;
+    font-weight: normal;
+}
+
+/*BARRA DE NAVEGACIÓN (Menú Horizontal)-----------------------------------------------------------*/
+.navbar {
+    display: flex;
+    background-color: #7a0101f8;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: 0.3s;
+}
+
+.navbar a.active {
+    background-color: rgba(248, 207, 26, 0.89);
+}
+
+.navbar a:hover:not(.active) {
+    background-color: #73661c;
+}
+
+
+
+/*PIE DE PÁGINA (Footer)--------------------------- */
+#pie {
+    background-color: #1a0284;
+    color: white;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+
+/* ====== CV IRAIS ====== */
+
+/* Contenedor principal */
+.cv-irais .container {
+    width: 1300px;
+    height: 1300px;
+    display: flex;
+}
+
+/* Columna izquierda */
+.cv-irais .left {
+    width: 400px;
+    height: 1300;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagen circular */
+.cv-irais .image-container {
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid rgb(197, 105, 148);
+    ;
+}
+
+.cv-irais .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Título dirección */
+.cv-irais .direccion-titulo {
+    margin-top: 30px;
+}
+
+/* Mapa */
+.cv-irais .mapa {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.cv-irais .mapa iframe {
+    width: 450px;
+    height: 300px;
+    border: 0;
+}
+
+/* Columna derecha */
+.cv-irais .right {
+    width: 900px;
+    height: 900px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Header nombre */
+.cv-irais header {
+    padding: 1em;
+    color: white;
+    background-color: rgb(197, 105, 148);
+    clear: left;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contenedor del video */
+.cv-irais .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+/* Video responsivo dentro de la columna */
+.cv-irais video {
+    width: 700px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cv-irais .cuadro-h3 {
+    padding: 15px;
+    /* Espacio interno entre el texto y el borde */
+    background-color: rgb(197, 105, 148);
+    /* Color de fondo (opcional) */
+    display: inline-block;
+    /* El cuadro se ajusta al contenido */
+    color: white;
+    border-radius: 8px;
+}
+
+.cv-irais strong {
+    color: rgb(197, 105, 148);
+}
+
+.cv-irais li::marker {
+    color: rgb(197, 105, 148);
+}
+
+/* ===== GALERÍA ===== */
+
+.galeria {
+    display: flex;
+    max-width: 650px;
+    height: 250px;
+}
+
+.galeria img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: contain;
+    transition: .5s ease;
+}
+
+.galeria img:hover {
+    cursor: crosshair;
+    width: 400px;
+}
+
+/* ====== CV IRVING ====== */
+
+/* Contenedor principal */
+.cv-irving .container {
+    width: 1300px;
+    height: 1300px;
+    display: flex;
+}
+
+/* Columna izquierda */
+.cv-irving .left {
+    width: 400px;
+    height: 1300px;
+    background-color: #0047AB;
+    /* azul cobalto oscuro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagen circular */
+.cv-irving .image-container {
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #ab0000;
+}
+
+.cv-irving .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Título dirección */
+.cv-irving .direccion-titulo {
+    margin-top: 30px;
+}
+
+/* Mapa */
+.cv-irving .mapa {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.cv-irving .mapa iframe {
+    width: 450px;
+    height: 300px;
+    border: 0;
+}
+
+/* Columna derecha */
+.cv-irving .right {
+    width: 900px;
+    height: 900px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Header nombre */
+.cv-irving header {
+    padding: 1em;
+    color: white;
+    background-color: #0047AB;
+    clear: left;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contenedor del video */
+.cv-irving .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+/* Video responsivo dentro de la columna */
+.cv-irving video {
+    width: 700px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cv-irving .cuadro-h3 {
+    padding: 15px;
+    background-color: #ab0000;
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+}
+
+.cv-irving strong {
+    color: #0047AB;
+}
+
+.cv-irving li::marker {
+    color: #0047AB;
+}
+
+/*======= CV APALE =======*/
+.cv-apale .container {
+    width: 1300px;
+    height: 1300px;
+    display: flex;
+}
+
+/* Columna izquierda */
+.cv-apale .left {
+    width: 400px;
+    height: 1300;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagen circular */
+.cv-apale .image-container {
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid orchid
+}
+
+.cv-apale .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Título dirección */
+.cv-apale .direccion-titulo {
+    margin-top: 30px;
+}
+
+/* Mapa */
+.cv-apale .mapa {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.cv-apale .mapa iframe {
+    width: 450px;
+    height: 300px;
+    border: 0;
+}
+
+/* Columna derecha */
+.cv-apale .right {
+    width: 900px;
+    height: 900px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Header nombre */
+.cv-apale header {
+    padding: 1em;
+    color: white;
+    background-color: orchid;
+    clear: left;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contenedor del video */
+.cv-apale .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+/* Video responsivo dentro de la columna */
+.cv-apale video {
+    width: 700px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cv-apale .cuadro-h3 {
+    padding: 15px;
+    /* Espacio interno entre el texto y el borde */
+    background-color: orchid;
+    /* Color de fondo (opcional) */
+    display: inline-block;
+    /* El cuadro se ajusta al contenido */
+    color: white;
+    border-radius: 8px;
+}
+
+.cv-apale strong {
+    color: orchid;
+}
+
+.cv-apale li::marker {
+    color: orchid;
+}
