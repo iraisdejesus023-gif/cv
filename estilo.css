@@ -398,4 +398,192 @@ main {
 
 .cv-apale li::marker {
     color: orchid;
+
+}
+
+/* ====== CV RAFAEL - Versión Minimalista ====== */
+
+/* Contenedor principal */
+.cv-rafael .container {
+    width: 1300px;
+    min-height: 1300px;
+    display: flex;
+}
+
+/* Columna izquierda - Ahora más oscura y elegante */
+.cv-rafael .left {
+    width: 400px;
+    background-color: #1A2238;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E0E0E0;
+}
+
+.cv-rafael .image-container {
+    margin-top: 50px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #9DAAF2; 
+}
+
+.cv-rafael .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Columna derecha */
+.cv-rafael .right {
+    width: 900px;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.cv-rafael header {
+    padding: 1.5em;
+    color: white;
+    background-color: #2B3A55; /* Azul acero */
+    text-align: center;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+/* Contenedor del video */
+.cv-rafael .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 50px 0;
+}
+.cv-rafael video {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+.cv-rafael .cuadro-h3 {
+    padding: 10px 20px;
+    background-color: #2B3A55; 
+    display: inline-block;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 0.9em;
+    margin-bottom: 15px;
+}
+.cv-rafael strong {
+    color: #2B3A55;
+}
+.cv-rafael li::marker {
+    color: #9DAAF2;
+}
+.cv-rafael .left a {
+    color: #9DAAF2;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+/* ====== CV JARED ====== */
+
+/* Contenedor principal */
+.cv-jared .container {
+    width: 1300px;
+    height: 1300px;
+    display: flex;
+}
+
+/* Columna izquierda */
+.cv-jared .left {
+    width: 400px;
+    height: 1300px;
+    background-color: #5c77ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagen circular */
+.cv-jared .image-container {
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #3dc27f;
+}
+
+.cv-jared .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Título dirección */
+.cv-jared .direccion-titulo {
+    margin-top: 30px;
+}
+
+/* Mapa */
+.cv-jared .mapa {
+    width: 350px;
+    margin-top: 10px;
+}
+
+.cv-jared .mapa iframe {
+    width: 450px;
+    height: 300px;
+    border: 0;
+}
+
+/* Columna derecha */
+.cv-jared .right {
+    width: 900px;
+    height: 900px;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Header nombre */
+.cv-jared header {
+    padding: 1em;
+    color: white;
+    background-color: #3dc27f;
+    clear: left;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Contenedor del video */
+.cv-jared .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+/* Video responsivo dentro de la columna */
+.cv-jared video {
+    width: 700px;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+.cv-jared .cuadro-h3 {
+    padding: 15px;
+    background-color: #00a3ab;
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+}
+
+.cv-jared strong {
+    color: #00ab56;
+}
+
+.cv-jared li::marker{
+    color: #00ab56;
 }
